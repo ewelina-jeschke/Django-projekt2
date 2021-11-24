@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+# Standard Library
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -20,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-d#og$(94#4(4c1+70za!j7@5d6wjrgejm&6saqu^ez7xgvjsqt'
+SECRET_KEY = 'django-insecure-&xlz2ulxk8bhurc_h5%q1y26aqy(wnyi60+jsox!)_b8@t71zi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
