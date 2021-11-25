@@ -1,3 +1,10 @@
+# Django
 from django.contrib import admin
 
-# Register your models here.
+# Project
+from users.models import ExtendedUser
+
+
+@admin.register(ExtendedUser)
+class ExtendedUserAdmin(admin.ModelAdmin):
+    pass
